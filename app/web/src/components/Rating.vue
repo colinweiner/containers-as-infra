@@ -75,7 +75,7 @@ export default {
     methods: {
       rateHero: function (id, name, event) {
         if (name === 'Batman' && event > 3.5) {
-          this.$Notify({ title: `Seriously?`, message: `He's just a rich guy. Zero super powers. Altrustic? Yes. Not a Superhero. Are you a PM?`, type: 'warning', duration: 10000 })
+          this.$Notify({ title: `Seriously?`, message: `He's just a rich guy. Zero super powers. Altrustic? Yes. Not a Superhero. Are you a PjM?`, type: 'warning', duration: 10000 })
         }
       },
       submitRatings() {
